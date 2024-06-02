@@ -656,6 +656,11 @@ input::placeholder {
         margin: auto 4rem;
     }
 
+    .herotext h1 {
+        background-color: #f0f0f0;
+        opacity: 0.8;
+    }
+
     .herotext_tagline {
         padding: 1rem;
         background-color: #f0f0f0;
