@@ -593,6 +593,37 @@ h6 {
     font-weight: 300;
 }
 
+
+
+.newsletter-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.newsletter-form input {
+    width: 200px;
+}
+
+.email {
+    padding: 0;
+    margin: 0;
+}
+
+.newsletter label {
+    color: #fff;
+}
+
+.newsletter-form button {
+    width: 200px;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+
 #email {
     width: 14rem;
     padding: 0.8rem;
