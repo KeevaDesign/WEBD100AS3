@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.6rem;
+    font-size: 1.2rem;
     font-weight: 800;
 }
 
@@ -65,15 +65,15 @@ p {
 }
 
 .index_banner {
-    background-image: url(../img/index_banner.jpg);
+    background-image: url(../img/index_banner.webp);
 }
 
 .feature_banner {
-    background-image: url(../img/feature_banner.jpg);
+    background-image: url(../img/feature_banner.webp);
 }
 
 .buypage_banner {
-    background-image: url(../img/buypage_banner.jpg);
+    background-image: url(../img/buypage_banner.webp);
 }
 
 
@@ -174,13 +174,17 @@ button:hover {
     color: #141414;
 }
 
+
 .herotext_tagline {
+    padding: 1rem;
+    font-size: 1.2rem;
     color: #333333;
+    margin-bottom: 1rem;
+
 }
 
 .hero_tagline_special {
     font-style: italic;
-
 }
 
 .herotext button {
@@ -191,8 +195,7 @@ button:hover {
     color: #ececec;
     background-color: rgb(69, 35, 105);
     text-align: center;
-    margin-top: 2rem;
-    margin-right: 0px;
+    margin: 0.4rem 0;
     cursor: pointer;
 }
 
@@ -519,10 +522,14 @@ h6 {
     align-items: center;
     justify-content: center;
     padding: 3rem 0;
+    margin: auto;
 }
 
 .qouta button {
+    margin: auto;
     font-size: 1.2rem;
+    padding: 1rem 2rem;
+    width: 360px;
 }
 
 /************** Footer **************/
@@ -640,10 +647,29 @@ input::placeholder {
         display: none;
     }
 
+    .herotext {
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        left: 0%;
+        transform: translate(0%, -50%);
+        margin: auto 4rem;
+    }
+
+    .herotext_tagline {
+        padding: 1rem;
+        background-color: #f0f0f0;
+        opacity: 0.8;
+        font-size: 1.1rem;
+        color: #333333;
+        margin-bottom: 2rem;
+    }
+
+
+
     /**************************************/
     /*************  Buy Page  *************/
     /**************************************/
-
 
     .buy_product {
         width: 90%;
@@ -687,12 +713,19 @@ input::placeholder {
         margin: auto 2rem;
     }
 
-    .herotext h6 {
+    .herotext_tagline {
         padding: 1rem;
         background-color: #f0f0f0;
         opacity: 0.8;
+        font-size: 1.1rem;
+        color: #333333;
+        margin-bottom: 2rem;
     }
 
+    .herotext h1 {
+        background-color: #f0f0f0;
+        opacity: 0.8;
+    }
 
     .herotext button {
         width: 180px;
